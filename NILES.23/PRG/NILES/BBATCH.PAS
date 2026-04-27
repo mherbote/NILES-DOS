@@ -77,7 +77,7 @@ end;
 
 begin {$IFDEF Debug} CheckBreak:=true; {$ELSE} CheckBreak:=false; {$ENDIF}
       c1_write(1,1,''); clrscr; f_bild:=true;
-      fenster(1, 1, 3,80,24,'�','�','�','�','�','�','�','�',copyrc,pc1,pc2,pc3);
+      fenster(1, 1, 3,80,24,'É','Í','»','º','È','¼','º','Í',copyrc,pc1,pc2,pc3);
       s_env2:=''; s_env3:=''; path_dp:=path_progr; path_dp[1]:='E';
 
       for i:=1 to 3 do                            { Pfad C:\ bereinigen       }
@@ -86,7 +86,7 @@ begin {$IFDEF Debug} CheckBreak:=true; {$ELSE} CheckBreak:=false; {$ENDIF}
                begin Close(RenDat); SetFAttr(RenDat,Archive); Erase(RenDat); end;
       end;
 
-      Mount_Log; log; formal1:=formal;            { alte Men� - Daten l�schen }
+      Mount_Log; log; formal1:=formal;            { alte Men - Daten l”schen }
       RmDir(path_bat1+formal1);
       if IOResult=5 then
          begin exec(path_progr+'DBATCH.EXE','d '+path_bat1+formal1+'\');
@@ -101,7 +101,7 @@ begin {$IFDEF Debug} CheckBreak:=true; {$ELSE} CheckBreak:=false; {$ENDIF}
       Mount_Log; exec(path_progr+'AMT.EXE','N S'); { SYSLOG -Eintrag vornehmen }
       DEC:=DosExitCode;
 
-      crc:=IOResult; Mount_Log; log;              { neue Men� - Daten laden   }
+      crc:=IOResult; Mount_Log; log;              { neue Men - Daten laden   }
       RmDir(path_bat1+'BATCH'); crc:=IOResult;
       assign(ip[1],path_bat1+formal1); rename(ip[1],path_bat1+'BATCH'); crc:=IOResult;
       MkDir(path_bat1+'BATCH'); crc:=IOResult;
@@ -121,9 +121,9 @@ begin {$IFDEF Debug} CheckBreak:=true; {$ELSE} CheckBreak:=false; {$ENDIF}
       repeat crc:=IOResult;
              if not Datei
                 then begin c1_write(1,1,''); clrscr;
-                           fenster(0,10, 9,70,16,'�','�','�','�','�','�','�','�','','','','');
+                           fenster(0,10, 9,70,16,'É','Í','»','º','È','¼','º','Í','','','','');
                            gotoxy(20,12); write('Legen Sie bitte Ihre SYSTEM - Disk in Laufwerk A');
-                           gotoxy(20,14); write('            Wenn bereit, dann <ENTER> dr�cken ! ');
+                           gotoxy(20,14); write('            Wenn bereit, dann <ENTER> drcken ! ');
                            ch:=readkey; Mount_Log; log;
                            exec(path_progr+'DBATCH.EXE','c '+'A:\bat\'+formal+'\ '+path_bat2+' RH');
                      end;
