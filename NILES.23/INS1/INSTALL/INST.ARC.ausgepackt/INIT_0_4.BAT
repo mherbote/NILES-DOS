@@ -1,0 +1,10 @@
+ECHO ÿ
+ECHO     PROFI-MENUE-MANAGER
+ECHO ÿ
+ASK "      QUELL-LAUFWERK WŽHLEN (A/B) ? ",abx
+IF ERRORLEVEL 3 GOTO uninst
+IF ERRORLEVEL 2 inst_pmm B
+IF ERRORLEVEL 1 inst_pmm A
+
+:uninst
+init_0 nul

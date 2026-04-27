@@ -1,0 +1,9 @@
+:error
+ECHO DISKETTE  ##  dBASEII_8  ## IN LAUFWERK %1 EINLEGEN
+ECHO                             ABBRUCH MIT ^C
+PAUSE
+REM inst_vol %1 NAME
+REM IF ERRORLEVEL 1 GOTO error
+
+REM D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+init_2 ESC06

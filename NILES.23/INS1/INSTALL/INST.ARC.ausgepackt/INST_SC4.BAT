@@ -1,0 +1,9 @@
+:error
+ECHO DISKETTE  ##  SUPERCALC 4.0  ## IN LAUFWERK %1 EINLEGEN
+ECHO                                 ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 IV00_0101
+IF ERRORLEVEL 1 GOTO error
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+init_5 ESC06

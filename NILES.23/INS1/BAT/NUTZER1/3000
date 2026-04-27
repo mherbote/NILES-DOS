@@ -1,0 +1,20 @@
+C ,00,14,07,00,
+  ,04,14,    ,AUSWAHL - Ebene ==> S o f t w a r e  U t i l i t y 's
+b1,07,18,    ,Reorganisation der Festplatte
+>                d:\utilitys\batch\amt.exe C C Reorg. FD
+>        CLS
+>                sd
+b2,09,18,    ,Mdisk  - universelles Dienstprogramm
+>                d:\utilitys\batch\amt.exe C C system Mdisk
+>                mdisk
+b3,11,18,    ,SideKick
+>                d:\utilitys\batch\amt.exe C C system SideKick
+>        CLS
+>                sk
+b4,13,18,    ,N O R T O N - Editor
+>                d:\utilitys\batch\amt.exe C C NORTON Editor
+>        CLS
+>                ne
+mz,23,07,0000,zurck zum Haupt-Men
+.
+

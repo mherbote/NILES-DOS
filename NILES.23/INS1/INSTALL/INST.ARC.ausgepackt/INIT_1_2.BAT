@@ -1,0 +1,29 @@
+ECHO ÿ
+ECHO     BASIC - PAKET mit TURBO BASIC
+ECHO                       BETTER BASIC
+ECHO                       GW BASIC
+ECHO ÿ
+ASK "    WELCHES BASIC PAKET SOLL INSTALLIERT WERDEN (T,B,G) ? ",tbgx
+IF ERRORLEVEL 4 GOTO uninst
+IF ERRORLEVEL 3 GOTO gw
+IF ERRORLEVEL 2 GOTO bb
+
+ASK "       QUELL-LAUFWERK WŽHLEN (A/B) ? ",abx
+IF ERRORLEVEL 3 GOTO uninst
+IF ERRORLEVEL 2 inst_bas B TB
+IF ERRORLEVEL 1 inst_bas A TB
+
+:bb
+ASK "       QUELL-LAUFWERK WŽHLEN (A/B) ? ",abx
+IF ERRORLEVEL 3 GOTO uninst
+IF ERRORLEVEL 2 inst_bas B BB
+IF ERRORLEVEL 1 inst_bas A BB
+
+:gw
+ASK "       QUELL-LAUFWERK WŽHLEN (A/B) ? ",abx
+IF ERRORLEVEL 3 GOTO uninst
+IF ERRORLEVEL 2 inst_bas B GW
+IF ERRORLEVEL 1 inst_bas A GW
+
+:uninst
+init_1 nul

@@ -1,0 +1,9 @@
+:error
+ECHO DISKETTE  ##  PLANSTAR  ## IN LAUFWERK %1 EINLEGEN
+ECHO                            ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 IV10_0101
+IF ERRORLEVEL 1 GOTO error
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\planstar %1
+init_5 ESC07

@@ -1,0 +1,13 @@
+PATH    c:\;d:\dos;d:\utilitys\nc;d:\utilitys\public;d:\bat;
+APPEND  d:\bat;d:\sp\turbo;   >NUL
+T d:\utilitys\public\watch
+T d:\utilitys\public\popalarm
+T d:\dos\keyb gr,,d:\dos\keyboard.sys
+T d:\utilitys\batch\command /C d:\bat\mounten.bat f: f:\
+C ,01,15,07,01,
+W ,55,18,80,21,É,Í,»,º,È,¼,º,Í         ;201,205,187, 186,200,188, 186,205
+W ,01,01,80,24,É,Í,»,º,È,¼,º,Í
+W ,01,21,40,24,Ç,Ä,Â,º,È,Ï,³,Í         ;199,196,194, 186,200,207, 179,205
+W ,40,21,80,24,Â,Ä,¶,³,Ï,¼,º,Í         ;194,196,182, 179,207,188, 186,205
+yy,23,47,    ,Arbeit beenden
+.

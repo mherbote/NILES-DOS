@@ -1,0 +1,22 @@
+ECHO    off
+        a:
+CD      a:\
+        install1
+:Zyk
+CLS
+ECHO 
+ECHO       Legen Sie bitte die Vfeature-Work in Laufwerk A
+ECHO                           컴컴컴컴컴컴�
+ECHO 
+PAUSE
+IF      not exist a:\vol_def.com GOTO Zyk
+IF      exist d:\dos\vdisk.sys GOTO End
+CLS
+ECHO    Die   D O S - K o m p o n e n t e n  werden auf die Festplatte gebracht.
+COPY    a:\dcp\*.* d:\dos >NUL
+        d:\utilitys\nc\fa d:\dos\*.* /a-/r+ >NUL
+ECHO    Bitte die Diskette aus dem Laufwerk entnehmen.
+PAUSE
+        d:\utilitys\public\int19o
+:End
+

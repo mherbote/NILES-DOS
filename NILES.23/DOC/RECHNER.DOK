@@ -1,0 +1,226 @@
+.pl72
+.cw 8
+.he zum MBA-286 12Mhz Motherboard                  Seite  #
+          1® Systeí Speed
+
+     1.1® H/× pusè button
+
+JP2:      0    0
+          2    1
+
+     Foò anù twï piâ ON/OFÆ pusè buttoî tï satifù systeí speeä switching.
+
+
+     1.2® S/× utilitù switch
+
+Usage:    SWITCÈ    <speed>
+
+          speed:    6,8,10,12
+
+
+     1.3® Keyboarä switch
+
+     Typå "CTRL¢ « "ALT¢ « ¢-¢  anä  "CTRL¢ « "ALT¢ « "+¢ tï changå thå  systeí 
+speeä  iæ  yoõ arå usinç AWARÄ BIOS® Thoså keyó combinatioî actó  aó  á  togglå 
+switch® Iô caî switcè thå currenô systeí speeä tï thå alternative.
+
+     Typå "CTRL¢ « "ALT¢ « "+¢  anä  "CTRL¢ « "ALT¢ « ¢-¢ tï changå thå  systeí 
+speeä iæ yoõ arå usinç AMÉ BIOS.
+
+
+          2® Direcô Memorù Accesó (DMA)
+
+     Thå  DMÁ  controlleò ió foò quicë datá transfeò betweeî  thå  disë  drive¬ 
+adaptoò cards¬ anä memorù bù transferrinç á blocë oæ 64/128ë byteó aô onå time¬ 
+thuó freå thå micrïprocessoò foò otheò tasks.
+
+     Wheî  poweò oî thå 80286¬ iô wilì initializå thå DMÁ controller®  Thå  DMÁ 
+controlleró  supporô  seveî channels® Eacè oæ thå seveî  channeló  ió  assigneä 
+uniquå I/Ï addresseó aó follow:
+
+     +---------------------------------------+
+     ü CHANNEÌ ü I/Ï Adresó (hex© ü Functioî |
+     |---------|------------------|----------|
+     ü    °    ü      008·        ü  Sparå   |
+     |---------|------------------|----------|
+     ü    1    ü      0083        ü  SDLÃ    |
+     |---------|------------------|----------|
+     ü    2    ü      0081        ü Diskette |
+     |---------|------------------|----------|
+     ü    3    ü      0082        ü  Sparå   |
+     |---------|------------------|----------|
+     ü    4    ü   Cascading      ü Cascade  |
+     |---------|------------------|----------|
+     ü    5    ü      0088        ü  Sparå   |
+     |---------|------------------|----------|
+     ü    6    ü      0089        ü  Sparå   |
+     |---------|------------------|----------|
+     ü    7    ü      008A        ü  Sparå   |
+     +---------------------------------------+
+
+
+     Thå controlleró allo÷ botè bytå anä worä transferó tï thå entirå 16Í byteó 
+addresó spacå aô thå I/Ï ratå oæ 4Í byteó peò second.
+
+     Controlleò  ±  caî  transfeò botè bytå anä worä  betweeî  memorù  anä  I/Ï 
+adapteró iî 64ë byteó blocks.Š     However¬  controlleò  ² caî transfeò onlù wordó iî 128ë  byteó  blockó  iî 
+even-bytå boundarieó® Theóå channeló arå tï bå useä witè onlù 16-biô devices.
+
+
+     DMÁ controlleò registeró ió listeä aó follows:
+
+     +--------------------------------------------------+
+     ü heø     |    Commanä Codes                       |
+     ü Addresó |                                        |
+     +---------+--------------------------------­---­---|
+     ü 0C°     ü CH° baså anä currenô addresó           |
+     ü 0C2     ü CH° baså anä currenô worä counô        |
+     ü 0C4     ü CH1 baså anä currenô addresó           |
+     ü 0C6     ü CH1 baså anä currenô worä counô        |
+     ü 0C8     ü CH2 baså anä currenô addresó           |
+     ü 0CA     ü CH2 baså anä currenô worä counô        |
+     ü 0CC     ü CH3 baså anä currenô addresó           |
+     ü 0CE     ü CH3 baså anä currenô worä counô        ü
+     |         |                                        |
+     ü 0D°     ü Reaä Statuó Reg./Writå Command Reg.    |
+     ü 0D2     ü Writå Requesô Reg®                     |
+     ü 0D4     ü Writå Singlå Masë Registeò Bit         |
+     ü 0D6     ü Writå Modå Registeò                    |
+     ü 0D8     ü Cleaò Bytå Pointeò Flip-Flop           ü
+     ü 0DA     ü Reaä Temporarù Reg.¯Writå Masteò Clear |
+     ü 0DC     ü Cleaò Masë Registeò                    |
+     ü 0DE     ü Writå Alì Masë Reg® Bitó               |
+     +--------------------------------------------------+
+
+
+          3® Reaä Onlù Memorù (ROM)
+
+     Therå  arå  ² IÃ socketó oî thå systeí boarä ­­-¾ U1· (even)¬  U2´  (odd).“ 
+Eitheò  2712¸ oò 2725¶ caî bå inserteä intï thå twï sockets® Buô onlù thå  samå 
+typå oæ IÃ caî bå useä aô onå time.
+
+     ROÍ accesó time     ­ 20° nó maximum
+
+JP3: ROÍ select          1    2    3
+                         |____|____|
+
+                         1--2      foò 27128
+                         2--3      foò 27256
+
+
+          4® Randoí Accesó Memorù (RAM)
+
+     Oî  thå  systeí board¬ RAÍ ió locateä iî fouò (4© rowó  oò  memorù  banks¬ 
+directlù  iî fronô oæ thå I/Ï sockets® Eacè oæ theså rowó ió compriseä oæ  ninå 
+RAÍ  chipó  oò blanë socketó thaô caî bå filleä witè ninå RAÍ chips®  Eighô  oæ 
+theså chipó arå activå memorù anä thå lasô onå ió thå paritù chiğ foò thå bank® 
+Eacè  memorù banë caî bå eitheò 64ë oò 256ë iî size¬ dependinç oî thå  typå  oæ 
+chiğ  used® Thå desireä RAÍ sizå caî bå obtaineä bù combininç anä mixinç  theså 
+chipó tï obtaiî á RAÍ sizå oæ anywherå froí 256ë tï 1MB.
+
+     RAÍ accesó time     ­ 12° nó maximum
+
+.paŠ3.10.     Switcè anä Jumpeò Setting
+
+1.   Settinç thå switcè oî youò systeí boarä.
+     Onlù onå 4-pinó diğ switcè shoulä bå settinç beforå turî oî youò system.
+
+     Memorù Switcè Setting
+
+S×-±   S×-²   S×-´    Bank°    Bank±     Startinç Addresó   Memorù Size
+OÎ     OÎ     OFÆ     128kÂ    128kÂ     000000H-03FFFFÈ     256kB
+OFÆ    OÎ     OFÆ     512kÂ    ­         000000H-07FFFFÈ     512kB
+OÎ     OFÆ    OFÆ     512kÂ    128kB     000000H-09FFFFÈ     640kB
+OFÆ    OFÆ    OFÆ     512kÂ    512kÂ     000000H-07FFFFÈ    
+                                         100000H-17FFFFÈ    1024kÂ (512/512)
+OÎ     OFÆ    OÎ      512kÂ    512kÂ     000000H-09FFFFÈ
+                                         100000H-15FFFFÈ    1024kÂ (640/384)
+
+
+     Displaù Adapteò Setting
+
+     SW-³        Displaù Type
+     -------------------------
+     ON          Coloò Graphics
+     OFF         Monochrome
+
+
+2® Jumpeò Setting
+
+     JP1       TURBÏ LED           1²  1°   ¸   6
+                               +    ®   ®   ®   .
+                               ­    ®   ®   ®   .
+
+     Thå  TURBÏ  LEÄ  indicatå thå systeí speeä iî 6¬ 8¬ 10¬ oò  1²  MHz®  Wheî 
+systeí runninç aô 12MHz¬ thå LEÄ 12 wilì lighô up¬ iæ systeí runninç aô  10MHz¬ 
+thå LEÄ 1° wilì lighô up¬ iî 8MHú conditioî theî LEÄ ¸ turî on® Iæ systeí speeä 
+ió 6MHú thå LEÄ ¶ wilì light.
+
+
+     JP3       ROÍ select          1    2    3
+                                   |____|____|
+
+                                   1--²      foò 27128
+                                   2--3      foò 27256
+
+
+.paŠ3.11.     Connectors
+
+     Thå systeí boarä comeó equippeä witè thå followinç connenctors:
+
+     Keyboarä Connector       Pinout    Signaì Name
+                              ----------------------
+                              1         Keyboarä Clock
+                              2         Keyboarä Data
+                              3         nï connection
+                              4         ground
+                              5         « µ V
+
+
+     Poweò connector          Pinout    assignments
+                              ---------------------------
+                               1        Poweò Good
+                               2        «  µ V
+                               ³        « 1² V
+                               4        ­ 1² V
+                               5        Ground
+                               ¶        Ground
+                               ·        Ground
+                               ¸        Ground
+                               9        ­  µ V
+                              10        «  µ V
+                              11        «  µ V
+                              12        «  µ V
+
+
+     Reseô Connector“          Pinout    assignments
+     (J4©  [Hardwarå resetİ   ----------------------
+                              1         Poweò Good
+                              2         Ground
+
+
+     Speekeò Connector“  (J1)  Pinout    Signaì Name
+                              -----------------------
+                              1         Speekeò out
+                              2         Ground
+                              3         Ground
+                              4         «  µ V
+
+
+     Keylocë Connectoò  (J2)  Pinout    Signaì Name
+                              --------------------------
+                              1         LEÄ Power
+                              2         Ground
+                              3         Ground
+                              4         Keù Lock
+                              5         Ground
+
+
+     Batterù Connector“  (J3)  Pinout    Signaì Name
+                              ---------------------------
+                              1         VDÄ (normallù 3.¶ Volts)
+                              2         N® C.
+                              3         Ground
+                              4         Ground
+
+

@@ -1,0 +1,31 @@
+IF %2*==5* GOTO tp5
+
+:error
+ECHO DISKETTE MIT ##  TURBOPASCAL 3.0  ## IN LAUFWERK %1 EINLEGEN
+ECHO                                      ABBRUCH MIT ^C
+PAUSE
+REM inst_vol %1 NAME3
+REM IF ERRORLEVEL 1 GOTO error
+
+REM D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+GOTO end
+
+:tp5
+ECHO DISKETTE MIT ##  TURBOPASCAL 5.0 I  ## IN LAUFWERK %1 EINLEGEN
+ECHO                                        ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 II20_0201
+IF ERRORLEVEL 1 GOTO tp5
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+
+:error1
+ECHO DISKETTE MIT ##  TURBOPASCAL 5.0 II  ## IN LAUFWERK %1 EINLEGEN
+ECHO                                         ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 II20_0202
+IF ERRORLEVEL 1 GOTO error1
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+
+:end
+init_1 ESC13

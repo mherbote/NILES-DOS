@@ -1,0 +1,20 @@
+:error
+ECHO DISKETTE  ##  WS4 EXTRA I  ## IN LAUFWERK %1 EINLEGEN
+ECHO                               ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 V00_0101
+IF ERRORLEVEL 1 GOTO error
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+
+ECHO ÿ
+
+:error2
+ECHO DISKETTE  ##  WS4 EXTRA II  ## IN LAUFWERK %1 EINLEGEN
+ECHO                                ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 V00_0102
+IF ERRORLEVEL 1 GOT error2
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+init_4 ESC06

@@ -1,0 +1,109 @@
+A:\
+D:\UTILITYS\BATCH\
+D:\UTILITYS\PUBLIC\
+E:\UTILITYS\BATCH\
+#
+IBMBIO.COM
+IBMDOS.COM
+COMMAND.COM
+MOUNT.COM
+DEMOUNT.COM
+FIXT_DRV.SYS
+CONFIG.SYS
+#
+PKXARC.COM,A
+NC.ARC,B
+ABZUG.ARC,C
+#
+C:\CONFIG.SYS
+device =fixt_drv.sys
+buffers= 10
+files  = 20
+country=049
+device =d:\dos\ansi.sys
+device =c:\mdrive.sys -rah -u0
+shell  =D:\UTILITYS\BATCH\mbatch.exe /E:2000
+#
+C:\BAT
+#
+D:\BAT
+D:\DOS
+D:\WORK
+D:\UTILITYS,D:\UTILITYS\BATCH,D:\UTILITYS\PUBLIC,D:\UTILITYS\NC
+#
+COMMAND.COM 
+MOUNT.COM 
+DEMOUNT.COM 
+#
+E:\BAT,E:\BAT\START_SY
+E:\SYSLOG
+E:\UTILITYS,E:\UTILITYS\BATCH
+#
+HEXDUMP.COM 
+INT19.COM 
+INT19O.COM 
+MAPMEM.COM 
+PKARC.COM 
+PKXARC.COM 
+RESI.COM 
+SKDEF.COM 
+SMARTKEY.COM 
+CDIR.EXE 
+CRC.EXE 
+FCP.EXE 
+TBAT1.EXE 
+TBAT2.EXE 
+TBATCH.EXE 
+#
+AMT.EXE 
+MBATCH.EXE 
+BBATCH.EXE 
+EBATCH.EXE 
+DBATCH.EXE 
+CREATE_B.EXE 
+CHANGE_B.EXE 
+#
+WRENABLE.COM 
+WPROTECT.COM 
+CLOCK.EXE 
+C-NAM.EXE 
+E-NAM.EXE 
+E-PASS.EXE 
+E-PATH.EXE 
+E-MENU.EXE 
+#
+E:\BAT\START_SY\
+0000 
+1000 
+DIGITAL 
+WURZEL 
+#
+:\BAT\
+ACAD.BAT 
+ACAD.SET 
+ACAD.WAI 
+#
+/C copy D:\UTILITYS\NC\nc_.ini      C:\nc_.ini
+/C copy D:\UTILITYS\NC\nc_bat.ini   C:\nc_bat.ini
+/C copy D:\UTILITYS\NC\nc.mnu       C:\nc.mnu
+/C del  D:\UTILITYS\NC\nc_.ini
+/C del  D:\UTILITYS\NC\nc_bat.ini
+/C del  D:\UTILITYS\NC\nc.mnu
+/C copy D:\WORK\mdrive.sys   C:\mdrive.sys
+/C copy D:\WORK\scp624.sys   C:\scp624.sys
+/C copy D:\WORK\siemens3.sys C:\siemens3.sys
+/C copy D:\WORK\cpa800.sys   C:\cpa800.sys
+#
+C:\
+NC_.INI
+NC_BAT.INI
+NC.MNU
+#
+D:\UTILITYS\NC\
+NC.EXE
+NC.EXT
+NCSMALL.EXE
+DBVIEW.EXE
+123VIEW.EXE
+#
+

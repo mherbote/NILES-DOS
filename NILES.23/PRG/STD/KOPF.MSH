@@ -1,0 +1,21 @@
+{$R-,S-,I-,D-,T-,F-,V+,B+,N-,L+ }
+{$M 1500,0,0 }
+{$DEFINE Debug }
+{$UNDEF  Debug }
+{.PL96}
+
+{*******************************************
+ * BBATCH.PAS                              *
+ * Anfangsbedingungen des SYSTEMs setzen   *
+ *                                         *
+ *        (c) by NILES-SOFT 1988 VERS. 1.0 *
+ *           Programmierer: Marcus Herbote *
+ *******************************************}
+
+uses   dos,crt,;
+
+const  copyrc                      = '(c) 88 by NILES-SOFT';
+       pc1                         = 'M o d u l :     B  B  A  T  C  H';
+       pc2                         = 'V e r s i o n   1  .  0';
+       pc3                         = '22.04.88';
+

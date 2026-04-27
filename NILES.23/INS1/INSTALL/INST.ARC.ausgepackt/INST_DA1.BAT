@@ -1,0 +1,9 @@
+:error
+ECHO DISKETTE  ##  dBASEIII_TOOLS_GRAFIK  ## IN LAUFWERK %1 EINLEGEN
+ECHO                                         ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 III00_0201
+IF ERRORLEVEL 1 GOTO error
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1 GR
+init_3 ESC06

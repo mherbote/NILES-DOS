@@ -1,0 +1,17 @@
+C ,00,14,07,00,
+  ,04,06,    ,AUSWAHL - Ebene ==> P r o g r a m m - E n t w i c k l u n g
+b1,09,18,    ,PROGRAMMIERSPRACHE   TurboBASIC
+>                d:\utilitys\batch\amt.exe C C Entw. TurboBAS
+>        CLS
+>                tb
+b2,11,18,    ,PROGRAMMIERSPRACHE   TurboC
+>                d:\utilitys\batch\amt.exe C C Entw. TurboC
+>        CLS
+>                tc
+b3,13,18,    ,DATENBANK - SYSTEM   dBASE III plus
+>                d:\utilitys\batch\amt.exe C C Entw. dBASE3p
+>         CLS
+>                d
+mz,23,07,0000,zurck zur HAUPT-Auswahl-Ebene
+.
+

@@ -1,0 +1,8 @@
+device =fixt_drv.sys
+buffers= 40
+files  = 20
+country=049
+device =c:\utilitys\micmouse\mouse.sys /I2 /Ld
+device =c:\dos32\ansi.sys
+shell  =command.com /P /E:2000
+

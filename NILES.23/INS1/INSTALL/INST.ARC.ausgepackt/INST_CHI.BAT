@@ -1,0 +1,10 @@
+:error
+ECHO DISKETTE  ##  CHI-WRITER  ## IN LAUFWERK %1 EINLEGEN
+ECHO                              ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 V51_0101
+IF ERRORLEVEL 1 GOTO error
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+
+init_4 ESC08

@@ -1,0 +1,19 @@
+:error
+ECHO DISKETTE MIT ##  TURBO-C I ## IN LAUFWERK %1 EINLEGEN
+ECHO                               ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 II25_0101
+IF ERRORLEVEL 1 GOTO error
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+
+:error1
+ECHO DISKETTE MIT ##  TURBO-C II  ## IN LAUFWERK %1 EINLEGEN
+ECHO                                 ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 II25_0102
+IF ERRORLEVEL 1 GOTO error1
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+
+init_1 ESC08

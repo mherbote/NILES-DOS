@@ -1,0 +1,34 @@
+C ,00,14,07,00,
+  ,04,14,    ,AUSWAHL - Ebene ==> N u t z e r  -  P r o j e k t e (Teil 1)
+b1,07,10,    ,N u t z e r  - Projekt 1
+>$01(1)
+b2,07,50,    ,N u t z e r  - Projekt 2
+>$01(2)
+b3,09,10,    ,N u t z e r  - Projekt 3
+>$01(3)
+b4,09,50,    ,N u t z e r  - Projekt 4
+>$01(4)
+b5,11,10,    ,N u t z e r  - Projekt 5
+>$01(5)
+b6,11,50,    ,N u t z e r  - Projekt 6
+>$01(6)
+b7,13,10,    ,N u t z e r  - Projekt 7
+>$01(7)
+b8,13,50,    ,N u t z e r  - Projekt 8
+>$01(8)
+b9,15,10,    ,N u t z e r  - Projekt 9
+>$01(9)
+mz,23,07,0000,zurck zur HAUPT-Auswahl-Ebene
+$01(%1)
+>                d:\utilitys\batch\amt.exe C C Projekt %1
+>        CLS
+>        ECHO .
+>        ECHO      Hier ist die Projekt BATCH-Datei fr das
+>        ECHO                   Projekt %1
+>        ECHO .
+>        ECHO             ====>  test%1
+>        ECHO .
+>        ECHO      einzugeben.
+>        PAUSE
+>        CLS
+

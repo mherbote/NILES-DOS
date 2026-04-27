@@ -1,0 +1,8 @@
+
+{$IFDEF Param_Clear}
+      if (ParamStr(1)='C') or (ParamStr(1)='c')
+         then begin Window( 1, 1,80,25); clrscr;                    end
+         else begin Window( 7, 6,75,18); clrscr; Window(1,1,80,25); end;
+{$ENDIF}
+
+

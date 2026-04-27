@@ -1,0 +1,23 @@
+C ,00,14,07,01,
+  ,04,14,    ,H a u p t - A U S W A H L - E b e n e
+b1,07,18,    ,S y s t e m A u f r u f
+>                d:\utilitys\batch\amt.exe C C -SYSTEM- -COMMAND
+>        IF      exist d:\install.bat  DEL d:\install.bat
+>        CLS
+>                tbat3  nc_.ini nc.ini  nc.ext nc.ext  nc-root.mnu nc.mnu
+>                d:\utilitys\batch\command.com /E:512
+b2,09,18,    ,I N S T A L L A T I O N S - SYSTEM
+>                d:\utilitys\batch\amt.exe C C -INIT- einr.
+>        IF      exist d:\i.bat  DEL d:\i.bat
+>   :Zyk
+>        CLS
+>        ECHO 
+>        ECHO       Legen Sie bitte die INSTALL-DISK in Laufwerk A
+>        ECHO                           컴컴컴컴컴컴
+>        ECHO 
+>        PAUSE
+>        IF      not exist a:\install\init_nil.bat GOTO Zyk
+>        CD      a:\install
+>                a:
+>                init_nil.bat
+

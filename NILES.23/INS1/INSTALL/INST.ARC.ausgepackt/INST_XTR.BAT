@@ -1,0 +1,9 @@
+:error
+ECHO DISKETTE  ##  XTREE UTIL II  ## IN LAUFWERK %1 EINLEGEN
+ECHO                                 ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 I90_0201
+IF ERRORLEVEL 1 GOTO error
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\xtree %1
+init_0 ESC11

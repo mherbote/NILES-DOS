@@ -1,0 +1,2 @@
+{$DEFINE WBS_70 }
+{$UNDEF  WBS_70 }

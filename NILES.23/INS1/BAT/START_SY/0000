@@ -1,0 +1,31 @@
+C ,00,14,07,00,
+  ,04,14,    ,H a u p t - A U S W A H L - E b e n e
+b1,07,18,    ,Reorganisation der Festplatte
+>                d:\utilitys\batch\amt.exe C C Reorg. FD
+>        CLS
+>                sd
+b2,09,18,    ,Mdisk  - universelles Dienstprogramm (VEB ROBOTRON)
+>                d:\utilitys\batch\amt.exe C C  system Mdisk
+>                mdisk
+b3,11,18,    ,SideKick
+>                d:\utilitys\batch\amt.exe C C system SideKick
+>        CLS
+>                sk
+b4,13,18,    ,NORTON Kommander
+>                tbat3 nc.ext nc.ext  nc_.ini nc.ini  nc-root.mnu nc.mnu
+>                tbatch \F9oeeNE !.!
+>                ncsmall
+b5,15,18,    ,N O R T O N - Editor
+>                d:\utilitys\batch\amt.exe C C NORTON Editor
+>        CLS
+>                ne
+b6,17,18,    ,N O R T O N  - Men
+>                d:\utilitys\batch\amt.exe C C NORTON Men
+>                tbat3 nc_bat.ini nc.ini  nc.ext nc.ext  nc-root.mnu nc.nmu
+>                ncsmall
+bs,23,07,    ,S y s t e m A u f r u f
+>                d:\utilitys\batch\amt.exe C C -SYSTEM- -COMMAND
+>        CLS
+>                d:\utilitys\batch\command.com /E:512
+.
+

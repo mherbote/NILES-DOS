@@ -1,0 +1,1025 @@
+.pl 66
+.cw 8
+.he Kurz-Beschreibung zum System   N I L E S - D O S                   Seite  #
+.fo (c) 88 by NILES-SOFT                                        Stand: 01.09.88
+
+          1®_INSTALLATIOÎ_deó_Systemó__NILES-DOS
+
+          1.1®_Einfhrung
+
+     Daó Installationsprogramí  INSTALL.EXE  solì deî Vorganç deó Installierenó 
+deó  Systemó weitgehenä automatiscè ablaufeî lassen® Eó werdeî nacè  erfolgrei
+cheí Einrichteî deò Festplattå miô Vfeature diå wesentlicheî Pfadå deó  Systemó 
+auæ deí ”ffentlicheî Laufwerë "C¢ unä deí Abrechnungslaufwerë "E¢ eingerichtet® 
+Anschlieáenä  werdeî  allå notwendigeî Programmdateien¬ sowiå  einigå  wichtigå 
+Dienstprogrammå (z.B® Nortoî Kommander© geladen® Desweitereî werdeî einå  Reihå 
+ntzlicheò  Batcè-Dateieî erzeugt¬ welchå gegebenenfalló eigeneî  Anforderungeî 
+angepaáô  werdeî mssen® Aló letzteó werdeî nocè eiî StartMen›-Kompleø  erzeugô 
+unä  diå Abrechnungsdateieî initialisiert® Allå weitereî  Installationsvorg„ngå 
+werdeî danî durcè erneuteó Starteî voî  INSTALL.EXÅ  durchgefhrô (siehå unten).
+
+
+          1.2®_šberlegungeî_zuí_Einrichteî_miô_Vfeature
+
+Deí  ersteî  Schritô  deò  Installierung¬ dem  Einrichteî  deò  Festplattå  miô 
+Vfeature¬  msseî  šberlegungeî  zuò  Einteilunç  deò  Festplattå  iî  einzelnå 
+Laufwerkå  vorausgehen®  Beé  dieseí  Schritô  sinä  nachfolgendå  Hinweiså  zõ 
+beachten:
+
+          1® Laufwerë "C¢
+             (”ffentlicheó Laufwerë miô allgemeineî Dienstprogrammen)
+             vorgeschlagenå Gr”áåº ca® ³ ­ · Í Byte
+
+          2® Laufwerë "E"
+             (Abrechnungslaufwerk)
+             vorgeschlagenå Gr”áeº cá® 0.³   Í Byte
+
+          3® allå weitereî Laufwerkå sinä entsprechenä deî Erfordernisseî 
+             einzurichten.
+
+          4® Wichtig! Einå PassWorô-Vergabå fò Laufwerkå mu›á mindestenó fr
+             daó Laufwerë "E¢ vorgenommeî werden® Hierbeé sollte m”glichsô 
+             keiî einfacheó Worô (nuò Buchstabeî unä Zifferî©¬ sonderî eiî Wort
+             benutzô werden¬ welcheó z.B® eiîigå ALT-Kombinationeî enth„lt.
+             (ALT-14´ isô nichô erlaubt).
+
+
+          1.3®_Ablauæ_deò_Installierung
+
+     1. Einrichteî deò Festplattå miô Vfeature
+
+     2. Aufruæ deó Programmeó INSTALL.EXÅ   (ERST-Installierung)
+
+     3® Aufruæ deó Programmeó INSTALL.EXÅ   (Modifizierunç deò Installierung)
+
+     4® manuelì durchzufhrendå Installationsvorg„nge
+
+
+.paŠ
+          1.4®_ERST-Installierunç_deó_Systeíó_miô_INSTALL.EXE
+
+Nacè  erfolgreicè abgeschlosseneò Formatierunç deò Festplattå miô Vfeaturå  kanî 
+nuî  daó  Systeí   NILEÓ-DOÓ   installierô  werden®  Dazõ  mu›á  diå   NILEÓ-DOÓ-
+InstallationsDiskettå  iî  daó Laufwerë Á eingeschobeî unä dieseó  Laufwerë  zuí 
+aktuelleî  erkl„rô  werden® Eó erfolgô jetzô deò Starô deó  Programmeó  miô  deí 
+Kommando:
+
+          A¾ INSTALÌ <ENTER>
+
+Daó  Startbilä mu›á miô deò <ENTER¾-Tastå quittierô werden. Miô deò Anfrage:
+
+          "Geben Sie bitte Ihre Ger„tekennung einº "
+
+isô  einå individuellå Ger„tekennunç einzugeben® Dieså Kennunç wirä sp„teò  beé 
+Maschinentagebucè-Auszgeî miô ausgegeben¬ uí Auswertungeî beò mehrerå Rechneò 
+macheî zõ k”nnen® Diå n„chstå Anfragå:
+
+          "PassWord von Laufwerk E eingeben      º "
+
+isô miô deí entsprechendeî Passworô zõ beantworten® Beé falscheí Passworô  odeò 
+falscè  eingegebeneí  Passworô wirä dieså Anfragå wiederholô  bió  siå  richtiç 
+beantworteô   wurde®  Deò  weiterå  Verlauæ  erfolgô  automatisch®  Eó   werdeî 
+enstsprechendå  Arbeitsg„ngå angezeigt® Isô diå ERSÔ-Installierunç beendeô  er
+scheinô wiedeò daó Startbild® 
+
+
+
+Achtunç!!!
+Solltå  diå  ERSÔ-Installierunç auó irgendwelcheî  Grndeî  abgebrocheî  wordeî 
+odeò  nichô bió zuí normaleî Abschlu›á gekommeî sein¬ danî msseî miô Hilfå  voî 
+Vfeaturå diå Laufwerkå "C¢ unä "E¢ neõ formatierô werden® Anschlieáenä mu›á  diå 
+ERST-Installierunç durcè daó Programí INSTALL.EXÅ wiederholô werden.
+
+
+
+
+.paŠ
+         1.5®_Modifizierunç_deó_Systemó_miô_INSTALL.EXE
+
+Nacè   erfolgteò  ERSÔ-Installatioî  deó  Systemó  meldeô  sicè  daó   Programí 
+INSTELL.EXÅ miô folgendeò Auswahlanzeige:
+
+ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º M o d u l :     I  B  A  T  C  H                        (c) 88 by NILES-SOFT º
+º V e r s i o n   2  .  1                                             01.09.88 º
+º                                                                              º
+º Modifizierung der Installierung                                              º
+º                                                                              º
+º              Datei: C:\CONFIG.SYS bearbeiten                                 º
+º                                                                              º
+º              NUTZER-Steuerdatei erzeugen    [C-NAM   ]                       º
+º              NUTZER l”schen / hinzufgen    [E-NAM   ]                       º
+º              NUTZERpassworte l”schen/„ndern [E-PASS  ]                       º
+º              NUTZER Mens bearbeiten        [E-MENU  ]                       º
+º                                                                              º
+º              LOGBUCH Auswertungsabzug                                        º
+º                                                                              º
+º              Datei: C:\PATH.TXT bearbeiten  [E-PATH  ]                       º
+º                                                                              º
+º                                                                              º
+º                                                                              º
+º                                                                              º
+º                                                                              º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+               P r o g r a m m    b e e n d e n
+
+Durcè  Auswahì  eineó deò angeboteneî Menpunktå kanî daó  installiertå  Systeí 
+NILES-DOÓ iî seineî Eigenschafteî deí jeweiligeî Nutzer(kreis© angepaáô werden.
+
+
+         1.5®1_Datei:_C:\CONFIG.SYS_bearbeiten
+
+Dieseò  Auswahlpunkô erm”glichô daó Bearbeiteî deò Dateé  C:\CONFIG.SYS®  Dieså 
+Dateé haô nacè deò ERST-Installatioî deî folgendeî Aufbaõ:
+
+          devicå =fixt_drv.sys
+          buffers= 40
+          files  = 20
+          country=049
+          device =c:\dos\ansi.sys
+          shell  =C:\UTILITYS\BATCH\mbatch.exe /E:2000
+
+   ­  Diå Wertå iî deî Anweisungeî bufferó unä fileó k”nnen deî  entsprechendeî 
+     Erfordernisseî angepaáô werden.
+
+   ­  Werdeî zus„tzlichå Ger„tetreibeò bzw® anderå Anweisungeî  ben”tigt¬  danî      
+     msseî dieså iî diå CONFIG.SYÓ eingeschlosseî werden® 
+     (z.B® MOUSE.SYS¬ VDISK.SYS)
+
+   ­ Deò unterstrichenå Teiì deò Anweisunç shelì wirä benutzt¬ uí deî Pfaä  miô 
+     deî ProgrammKomponenteî deó Systemó zõ ermitteln® Eò daræ nichô  ver„nderô 
+     werden.
+.paŠ
+         1.5®2_NUTZER-Steuerdatei_erzeugen____[C-NAM___]
+
+Dieseò  Auswahlpunkô aktivierô ií Systeí NILEÓ-DOÓ einå Listå voî Nutzern¬  diå 
+aî  deí  jeweiligeî  Rechneò zugelasseî sind® Eó  wirä  vorausgesetzt¬  da›á  ií 
+Laufwerë Á einå Diskettå ist¬ welchå diå Dateé A:\SYSLOG\LOGNAMEO.DAT‚ enth„lt.
+Dieså  Dateé  mu›á allå aktuelleî Nutzeò unä eineî PseudoNutzer™  enthalten®  Deò 
+Aufbaõ dieseò Dateé isô ií Punkô 3.1 (siehå unten© beschrieben.
+
+Deò PseudoNutzer™ mu›á diå Nutzerkennunç  IiIiI„  unä deî MenPathZeigeò  START_SY‚ 
+erhalten.
+
+
+         1.5®3_NUTZER_l”schen_/_hinzufgen____[E-NAM___]
+
+Dieseò  Auswahlpunkô  stellô diå Funktioneî
+
+          ­ Bearbeiteò hinzufgen¬ 
+          ­ Bearbeiteò l”schen¬ 
+          ­ Men-Pfad-Namå eineó Bearbeiteró anzeigen‚ und
+          ­ Men-Pfad-Namå eineó Bearbeiteró „ndern‚   zuò Verfgung.
+
+
+
+- Bearbeiter hinzufgen       eó wirä Kurzbezeichnung des Bearbeiters: 
+                              unä     M e n u  -  P A T H  -  N a m e:
+                              fò deî neueî Bearbeiteò angefordert
+
+­ Bearbeiter l”schen          eó wirä Kurzbezeichnung des Bearbeiters:„ ,
+                              deò zõ l”scheî isô¬ angefordert
+
+­ Menu-PATH-Name zeigen       eó wirä Kurzbezeichnung des Bearbeiters: ,
+                              fò deî deò zugeh”rigå Pfadnamå anzuzeigeî ist,
+                              angefordert.
+
+­ Menu-PATH-Name „ndern       eó wirä Kurzbezeichnung des Bearbeiters: 
+                              unä     M e n u  -  P A T H  -  N a m e:
+                              fò deî zõ „nderndeî Bearbeiteò angefordert
+                              
+­ Programí beenden™            beendeô deî Programmzweiç Nutzeò l”schen/hizufgen
+
+
+.paŠ         1.5®4_NUTZERpassworte_l”schen/„ndern_[E-PASS__]
+
+Dieseò  Auswahlpunkô  stellô diå Funktioneî
+
+          ­ Passwort hinzufgen¬ 
+          ­ Passwort l”schen     und
+          ­ Passwort „ndern‚      zuò Verfgung.
+
+
+- Passwort hinzufgen         eó wirä Kurzbezeichnung des Bearbeiters: 
+                              unä     Eingabe des Passwortes:
+                              fò deî Bearbeiteò angefordert
+
+­ Passwort l”schen            eó wirä Kurzbezeichnung des Bearbeiters:„ ,
+                              fò deî daó Passwort zõ l”scheî isô¬ angefordert
+
+­ Passwort „ndern             eó wirä Kurzbezeichnung des Bearbeiters: 
+                              unä     Eingabe des Passwortes:
+                              fò deî Bearbeiteò angefordert
+                              
+­ Programí beenden™            beendeô deî Programmzweiç Nutzeòpassworte 
+                              l”schen/„ndern
+
+
+         1.5®5_NUTZER_Mens_bearbeiten________[E-MENU__]
+
+Dieseò Auswahlpunkô isô iî deò derzeitigeî Versioî nuò aló Fragmenô enthalten.
+Diå   Bereitstellunç   deò   Nutzeò-Menó  wirä   ií   Punkô   1.¶    (manuelì 
+durchzufhrendå Installationsvorg„nge© beschrieben.
+
+
+         1.5®6_LOGBUCH_Auswertungsabzug
+
+Miô  dieseí  Auswahlpunkô wirä eiî aktuelleò Auszuç auó  deí  Maschinentagebucè 
+erstellt® Diå Auszugsdateé wirä auæ Laufwerë Á iî deò Wurzeì miô deí Dateinameî 
+LOGBUCH„   angelegt®   Dieså  Dateé  enth„lô  diå  Ger„tekennung¬   sowiå   allå 
+abgeschlosseneî  Eintragungeî  auó deí  Maschinentagebuch®  Dieså  bernommeneî 
+Maschinenbucè-Eintragungeî     werdeî     gleichzeitiç     iî     deò     Dateé 
+E:\SYSLOG\LOGMASCH.DAT„  gel”scht»  eó  bleibô nuò  deò  nocè  offene¬  aktuellå 
+Eintraç  iî  dieseò Dateé bestehen® Diå Auszugsdateé isô aló  Eingabedateé  fò 
+eiîe zentralå Rechner-Auslastunç vorgesehen. 
+
+.paŠ         1.5®7_Datei:_C:\PATH.TXT_bearbeiten__[E-PATH__]
+
+Dieseò Auswahlpunkô aktualisierô diå Steueò-Dateé C:\PATH.TXT® Siå enth„lô alì
+gemeinå Verbindungeî zwischeî deí aktuelleî Festplatteî-Bauí unä Prïjekteî  voî 
+NILEÓ-SOFÔ. Deò Programmzweig meldeô sicè miô nachfolgendeò Auswahlanzeige:
+
+ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º M o d u l :     I  B  A  T  C  H                        (c) 88 by NILES-SOFT º
+º V e r s i o n   2  .  1                                             01.09.88 º
+º                                                                              º
+º Modifizierung der Installierung                                              º
+º                                                                              º
+º       ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»         º
+º       º M o d u l :     E  -  P  A  T  H      (c) 88 by NILES-SOFT º         º
+º       º V e r s i o n   2  .  1                           01.09.88 º         º
+º       º                                                            º         º
+º       º Bezeichnung: AutoCAD                                       º         º
+º       º                                                            º         º
+º       º Pfad       : F:\ACAD\D26\                                  º         º
+º       º Dateiname  :         .                                     º         º
+º       º                                             Satz:     1    º         º
+º       ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼         º
+º                                                                              º
+º                                                                              º
+º                                                                              º
+º                                                                              º
+º                                                                              º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+  n„chsten Eintrag      Eintrag l”schen
+  vorigen  Eintrag      Eintrag  „ndern    neuen Eintrag      Programm beenden
+
+
+­ n„chsten Eintrag            zeigô deî n„chsteî       Eintraç auó deò Dateé an
+
+­ vorigen  Eintrag            zeigô deî vorhergehendeî Eintraç auó deò Dateé an
+
+­ Eintrag l”schen             l”schô deî aktuelì angezeigteî Eintrag
+
+­ Programm beenden            beendeô deî Programmzweiç C:\PATH.TXÔ bearbeiten
+
+­ Eintrag  „ndern             modifizierô deî aktuelleî Eintrag
+
+­ neuen Eintrag               erzeugô eineî neueî Eintraç iî deò Datei
+
+
+Diå  Auswahlpunktå  Eintraç „ndern™ unä neueî Eintrag™ fhreî zõ  eineò  weitereî 
+Men›-Auswahl®  Miô  ihreò  Hilfå lasseî sicè diå einzelneî  Feldeò  deó  Dateé-
+Eintragó „ndern® 
+
+.paŠNachfolgenä diå Auswahlanzeigå fò daó nderî eineó Eintrags:
+
+ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º M o d u l :     I  B  A  T  C  H                        (c) 88 by NILES-SOFT º
+º V e r s i o n   2  .  1                                             01.09.88 º
+º                                                                              º
+º Modifizierung der Installierung                                              º
+º                                                                              º
+º       ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»         º
+º       º M o d u l :     E  -  P  A  T  H      (c) 88 by NILES-SOFT º         º
+º       º V e r s i o n   2  .  1                           01.09.88 º         º
+º       º                                                            º         º
+º       º Bezeichnung: AutoCAD                                       º         º
+º       º                                                            º         º
+º       º Pfad       : F:\ACAD\D26\                                  º         º
+º       º Dateiname  :         .                                     º         º
+º       º                                             Eintrag „ndern º         º
+º       ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼         º
+º                                                                              º
+º                                                                              º
+º                                                                              º
+º                                                                              º
+º                                                                              º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+                                           Dateiname          Speichern
+  Bezeichnung           Pfad               Dateierwei.        Abbruch
+
+
+- Bezeichnung                 Modifizierunç deó Feldeó   Bezeichnung
+
+­ Pfad                        Modifizierunç deó Feldeó   Pfad
+
+­ Dateiname                   Modifizierunç deó Feldeó   Dateiname
+
+­ Dateierwei.™                 Modifizierunç deò Dateierweiterunç ií Felä Dateiname
+
+­ Speichern™                   Speicherô diå aktuelì vorgenommeneî nderungeî iî 
+                              deò  Dateé  unä kehrô iî daó  bergeordnetå  Men› 
+                              zurck
+
+­ Abbruch™                     brichô deî nderungszweiç aâ  unä  kehrô  iî  daó 
+                              bergeordnetå Men› zurck
+
+
+
+
+
+
+.paŠ         1.6_manuelì_durchzufhrendå_Installationsvorg„nge
+
+     Aló manuelì durchzufhrendå Installationsvorg„ngå bleiben:
+
+          1® Ladeî deò transienteî MÓ-DOÓ Kommandoó   und
+
+          2® Anlegeî unä Flleî deò MensteuerPfadå 
+             (wirä iî eineò sp„tereî Versioî durcè eiî Programí untersttzt)
+
+
+         1.6.1_Ladeî_deò_transienteî_MÓ-DOÓ_Kommandoó
+
+     Diå  transienteî  MÓ-DOÓ Kommandoó msseî iî  deî  Pfaä   C:\DOS„   kopierô      
+werden®  Diå  KommandoDateieî  msseî voî deò selbeî  Versioî  (3.1¬  3.²  ...©      
+wiå  diå  Dateieî  IBMBIO.COM¬ IBMDOS.COÍ unä  COMMAND.COÍ  auæ  deò  Vfeaturå­     
+Worë sein.
+     Minimaì msseî diå Dateieî ANSI.SYS„ unä KEYBGR.COM„ iî dieseî Pfaä  kopierô      
+werden®
+
+
+         1.6.2_Anlegeî_unä_Flleî_deò_MensteuerPfadå 
+
+     Diå  ben”tigteî MensteuerPfadå msseî sicè auæ deí Abrechnungslaufwerë  Å 
+aló Unterpfadå voí Verzeichnió  E:\BAT„  befinden® Solltå eiî aktuelì voí Systeí 
+gesuchteò  Pfaä hieò nichô gefundeî werden¬ danî wirä einå  Systemdiskettå  miô 
+dieseí Pfaä angefordert® Nachfolgenä werdeî diå Schrittå angegeben¬ welchå  zuí 
+Einrichteî bzw® Ver„nderî voî MensteuerPfadeî notwendiç sind:
+
+     1® Mounteî voî Laufwerë "E¢ 
+
+     2® Aufruæ deó Programmeó  E:\UTILITYS\BATCH\WRENABLE
+
+     3®   ­ Anlegeî      voî MensteuerPfadån  aló UnterPfadå voî  E:\BAT,
+          ­ Kopiereî     voî MensteuerDateieî iî diå entsprechendeî Pfadå bzw.
+          ­ Modifiziereî voî MensteuerDateieî .
+
+
+     Hieò  wirä konkreô entschieden¬ welchå Nutzeò miô welcheî  Programmeî  unä      
+Programmkomponenteî iî Berhrunç kommeî drfen.
+     Dieså MensteuerPfadå msseî ií Minimalfalì diå Dateien
+
+        WURZEL„ (enth„lô diå StandardInformationeî deó   Haupô­     unä 
+                                                  alleò UnterMens)
+     unä 
+
+        0000   (enth„lô diå Informationeî deó HauptMens)
+
+     enthalten.
+
+
+.paŠ          1.7®_Vorgeheî_beé_Start-Fehlerî_durcè_diå_Abrechnungsdateien
+
+          1.7®1®_LOGNAM.DAÔ_defekt
+
+­­­  letzteò  aktiveò  Nutzeò  iî deò LOGMASCH.DAÔ  nichô  iî  deò  LOGNAM.DAÔ 
+     enthalten® 
+
+     1. šberprfeî Siå diå Dateieî E:\SYSLOG\LOGMASCH.DAÔ unä 
+                                   A:\SYSLOG\LOGNAMEO.DAT
+        unä nehmeî Siå entsprechendå Korrektureî voò 
+        (siehå Punktå 1.5.² unä 1.5.3).
+
+
+---  LOGNAM.DAÔ isô nichô mehò vorhandeî bzw® anderweitiç zerst”rt
+
+     1® Abarbeitunç deó unteò Punkô 1.5.² beschriebeneî Teiló deó Programmes
+        INSTALL.
+
+     ACHTUNG¡ Allå nutzerbezogeneî Passwortå sinä jetzô gel”schô® 
+
+
+          1.7.2®_LOGMASCH.DAÔ_defekt
+
+     1® šberprfeî Siå deî Aufbaõ deò Dateé E:\SYSLOG\LOGMASCH.DAT
+        unä nehmeî Siå entsprechendå Korrektureî vor® 
+
+
+          1.7.3®_LOGMASCH.DAÔ_nichô_gefunden
+
+     Dieså  Fehlerausschrifô signalisierô eineî schwereî  Systemfehler®  Solltå 
+nacè  erneuteí  Systemstarô dieseò Fehleò nichô behobeî sein¬  danî  mátå  daó 
+Systeí neõ installierô werden.
+
+
+          1.7.4®_eiî_Nutzeò_hat_seiî_PassWorô_vergessen
+
+     Haô  eiî  Nutzeò seiî BerechtigungsPassworô vergesseî bzw®  kommô  eò  miô 
+seineí  PassWorô nichô mehò inó System¬ danî mu›á eò deî  Systemverantwortlicheî 
+iî  Kenntnió  setzen® Dieseò kanî danî entsprechenä Punkô  1.5.´  daó  Passworô 
+dieseó  Nutzeró  l”schen® Beií n„chsteî Systemstarô durcè deî  Nutzeò  wirä  eò 
+wiedåò zuò Eingabå seines Passworôes aufgefordert. 
+
+
+.paŠ          2®_Benutzungshinweiså_zuí_Systeí__NILES-DOS
+
+     Beií  SystemStarô wirä deò Inhalô deó Pfadeó C:\BAT\BATCHÜ gel”scht®  Wenî 
+deò  SystemStarô  erfolgreicè  war¬ danî wirä  iî  Abh„ngigkeiô  deó  aktuelleî 
+Nutzeró deò Inhalô dieseó Pfadeó eingerichtet® Isô deò aktuellå Nutzeò aucè deò 
+vorhergehendå Nutzeò gewesen¬ danî werdeî diå Dateieî iî deí Pfaä C:\BAT\BATCHÜ 
+wiederhergestellt®  Isô  deò aktuellå Nutzeò abeò eiî neueò Nutzer¬  danî  wirä 
+zuersô  ií Laufwerë Ä eiî Pfaä D:\BAT\kennÜ gesucht® Beé Vorhandenseiî wirä  eò 
+nacè Ã kopiert® Isô eò nichô vorhandeî bzw® k”nneî diå Dateieî WURZEÌ unä  000° 
+nichô  gefundeî werden¬ danî wirä iî Laufwerë Á einå Diskettå angefordert®  Auæ 
+dieseò  Diskettå  mu›á eiî Pfaä A:\BAT\kennÜ vorhandeî  sein®  Diå  Zeichenfolgå 
+"kenn¢  wirä voí Systeí beò diå Dateieî ií Pfaä D:\SYSLOGÜ ermittelt®  Iî  deí 
+Pfaä  A:\BAT\kennÜ  msseî ií Minimalfalì wiedeò diå Dateieî  WURZEÌ  unä  000° 
+stehen® 
+
+          2.1®_Auswahlm”glichkeiteî_fò_diå_Men-Anzeigen
+
+     Cursoò rechts       eineî Menpunkô nacè unten
+     Cursoò runter       eineî Menpunkô nacè unten
+     Cursoò links        eineî Menpunkô nacè oben
+     Cursoò hoch         eineî Menpunkô nacè oben
+
+     ersteó Zeichen      springô zuí entsprechendeî Menpunkt
+     ií Menfeld
+
+     ENTER               aktivierô dån ausgew„hlteî Menpunkt
+
+     PF10                aktivierô diå FARB-Modifikatioî deó aktuelleî Mens
+                         Modifikatioî   isô   nuò   tempor„r¬   sollangå    deò 
+                         MenKompleø gltiç ist.
+                         Welcheò  FarbWerô  ge„nderô  wird¬  isô  iî  Zeilå  2µ 
+                         angezeigt.
+
+          INS            w„hlô .../Hintergrunä aló FarbWert
+
+          DEL            w„hlô .../Texô        aló FarbWert
+
+          HOME           w„hlô Umfeld/..®      aló FarbWert
+
+          END            w„hlô Auswahl/..®     aló FarbWert
+
+          Pç Up          setzô FarbWerô -1
+
+          Pç Down        setzô FarbWerô +1
+
+          ° ..® 9
+          Á ..® F        setzô direkteî FarbWerô 0..¹ bzw® 10..15
+
+          PF10™           schlieáô diå Modifikatioî aâ unä speicherô diå  neueî 
+                         Werte
+
+Beé  aktiveò Mauó (Harä­ unä Softwarem„áiç installiert© kanî diå  Auswahì  aucè 
+durcè Bewegeî deò Mauó erfolgen® Deò linkå Mausknopæ entsprichô dabeé deò Tastå 
+ENTER®  Deò rechtå Mausknopæ w„hlô eineî Menpunkô deò aló  Auswahlzeicheî  eiî 
+"z¢ hat.
+
+.paŠ
+          2.2®_Bedienhandlungeî_beií_Starô_deó_Systems
+
+     1® RESEÔ deó Systemó durcè    ­ Einschalteî deó Rechners
+                                   ­ Reset-Tastå bet„tigt
+                                   ­ "CTRL"+"ALT"+"DEL¢ bet„tigt oder
+                                   ­ Menpunkô "y¢ gew„hlt.
+
+     2® Eingabå deó ZugangsPassworteó zuí Systeí voî Vfeaturå¬ wenî vorhanden.
+
+     3® aktuelleó Datuí unä Uhrzeit eingebeî (auæ aktuellå Werte™ achteî !!!)
+
+     4® Nutzerkennung eingeben
+
+     5®  beé  Erstanmeldunç eineó Nutzeró erfolgô jetzô daó  Definiereî  seineó 
+        BerechtigungsPasswortes
+
+     6® BerechtigungsPasswort eingeben¬ eó sinä maximaì dreé Versuchå m”glich
+
+        Achtunçº Eó isô nocè englischå Tastaturbelegunç gltig!
+
+     7® Eventuelì Systeí-Diskettå miô MenPfaä einlegen.
+
+     8® Eó mu›á sicè nuî eiî entsprechendeó AnfangsMen› melden.
+
+
+
+          2.3®_einigå_Bemerkungeî_zõí_Aufbaõ_voî_Mens
+
+          2.3.1®_zuò_Dateé_WURZEL
+
+     Iî  deò  Dateé WURZEÌ solltå auæ jedeî Falì einå Zeilå  miô  nachfolgendeí 
+Aufbaõ enthalteî sein:
+
+          yy,23,47,    ,Arbeit beenden
+
+     Dieó  bewirkt¬  da›á  auó jedeí Men› (Haupô­  unä  Unteò-Men©  diå  Arbeiô 
+beendeô  werdeî  kann® Eó isô erforderlich¬ da›á beé  Arbeitsendå  (Wechseì  deó 
+Nutzeró bzw® Schichtende© iî jedeí Falì dieseò Menpunkô abgearbeiteô wird® Nuò 
+sï wirä eiî ordnungsgem„áeó Maschinentagebucè gefhrt.
+
+
+          2.3.2®_Aufruæ_deó_Programmeó__Á_M_T
+
+     Fò   einå   Auswertunç  deó  Maschinentagebucheó   nacè   Projekteî   unä 
+Teilprojekteî  bzw®  „hnliches¬ mu›á iî diå  Kommandozeileî  deò  entsprechendeî 
+Menó  m”glichsô  aló  ersteó  Kommandï einå  Zeilå  miô  nachfolgendeí  Aufbaõ 
+eingefgô werden:
+
+          >________________c:\utilitys\batch\amô_ã_ã_projekt™_teil
+
+     Fò projekt™ unä teil™ msseî maximaì 8-stelligå Kennungeî angegebeî werden.
+
+
+
+.paŠ
+          3® Aufbaõ deò Dateieî deó automatischeî Maschinentagebuches
+
+
+          3.1®_Dateé__A:\SYSLOG\LOGNAMEO.DAT
+
+
+     Dieså Dateé enh„lô ií Klartexô (allå Feldeò ií ASCII-Code) diå zul„ssigeî 
+     Nutzeò unä ihrå Kennungen.
+
+     Feld ¡ Positioneî ¡ L„nge   ! Inhalt
+     -----!------------!---------!---------------------------------------------
+       ±  !  ± .®  µ   ¡    µ    ! Nutzerkennunç¬ 
+          !            !         !     welchå beé SysteíStarô einzuçebeî ist
+       ²  !     6      ¡    1    ! Trennzeicheî  "!"
+       ³  !  · .® 2¸   ¡   22    ! Langforí deó Nutzeró 
+       ´  ¡ 2¹ .® 3¶   ¡    ¸    ¡ Men›-Patè-Zeigeò » PfadNamå fò diå 
+          !            !         ¡     Mensteuerdateieî auæ Laufwerë A
+          ¡            ¡         ¡     (entsprichô "kenn¢ auæ vorhergehendeò Seitå) 
+       µ  ¡ 3· .® 3¸   ¡    ²    ¡ Satzendekennzeicheî      #13#10
+
+
+
+          3.2®_Dateé__E:\SYSLOG\LOGNAM.DAT
+
+     Dieså Dateé enth„lô iî interî-verschlsselteò Forí diå zul„ssigeî Nutzeò 
+     miô ihreî Passworten.
+
+     Feld ¡ Positioneî ¡ L„nge   ! Inhalt
+     -----!------------!---------!---------------------------------------------
+       ±  !  ± .®  2   ¡    2    ! crc±   Nutzerkennung
+       ²  !  ³ .®  4   ¡    2    ! crc²   Passworô 1
+       ³  !  5 .®  6   ¡    2    ! crc3 
+       ´  ¡  7 .® 14   ¡    8    ¡        Men›-Patè-Zeigeò 
+
+     
+
+          3.3®_Dateé__E:\SYSLOG\LOGMASCH.DAT
+
+     Dieså Dateé bildeô daó eigentlichå Maschinentagebuch® Hieò werdeî alle
+     An­ unä Ab-Meldungeî deó Systeíó festgehalten® (allå Feldeò ií ASCII-Code)
+
+     Feld ¡ Positioneî ¡ L„nge   ! Inhalt
+     -----!------------!---------!---------------------------------------------
+       ±  !  ± .®  8   ¡    8    ! proê   Projektname
+       ²  !  9 .® 13   ¡    5    ! bea    Nutzerkennung
+       ³  ! 14 .® 21   ¡    8    ! dwg    bearbeiteteò Projektteil
+       ´  ¡ 22 .® 29   ¡    8    ¡ dat    JJJJMMTÔ Datum
+       µ  ¡ 30 .® 33   ¡    4    ¡ tims   SSMÍ     Startzeit
+       ¶  ¡ 3´ .® 37   ¡    ´    ¡ timå   SSMÍ     Stoğ zeit
+       ·  ¡ 3¸ .® 4²   ¡    µ    ¡ miî    MMMÍ     Laufzeiô iî Minuten
+       ¸  ¡ 4³ .® 44   ¡    ²    ¡        Óatzendekennzeicheî      #13#10
+
+.paŠ
+          4®_Aufbaõ_deò_Mensteuer-Dateien
+
+
+          4.1®_allgemeines
+
+          4.1.1._Definition_von_Fensterpunkten
+
+
+           P1       P2       P3
+             ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+             º              º
+          P4 º              º P7
+             º              º
+             ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+           P5       P8       P6
+
+
+
+    
+          4.1®2®_šbersichô_beò_diå_benutzteî_Dateien
+
+     Diå Steuerunç alleò Prozesså unä Verfahreî deó Betriebssystemó geschiehô beò Men›-Bilder® Allå 
+notwendigeî Informationeî zuí Aufbaõ dieseò Bildeò steheî iî deî Mensteueò-Dateien® Eó werdeî  vieò 
+verschiedenå Dateitypeî unterschieden:
+
+     1® diå Dateé                    WURZEL 
+     2® diå Dateieî                  "xxxx"
+     3® diå Erweiterungsdateien                   und
+     4® déå externeî Input-Dateien.
+
+
+
+          4.1®3®_Hinweiså_zõò_Bedienung
+
+     Diå Auswahì eineó Menpunkteó geschiehô miô Hilfå deò Kursoò-(Pfeiì-)Tasteî deò Tastatur¬  bzw® 
+beé  Vorhandenseiî  eineò  Mauó  aucè miô dieser® Einå  DirektAuswahì  erfolgô  ebenfalló  beò  daó 
+Kennzeichenbytå  deó jeweiligeî Menpunktes® Aktivierô wirä diå ausgew„hltå Funktioî miô deò  ENTEÒ-
+Tastå deò Tastatuò bzw® méô deí linkeî Mausknopf.
+
+
+.paŠ
+          4.2®_Dateé__WURZEL
+
+     Dieså Dateé enth„lô StandardInformationeî fò daó Haupt­ unä allå Unter-
+     Mens® Siå haô folgendeî allgemeineî Aufbau:
+
+                 ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+                 ›º                                   º
+                 º   set_path_anweisunç              º
+                 ›º                                   º
+                 º   set_append_anweisunç            º
+                 ›º                                   º
+                 º [ treiber_anweisunç      İ  ® ® ® º
+                 ›º                                   º
+                 º Û farbdefinition         ]        º
+                 ›º                                   º
+                 º [ fensterdefinitioî      İ  ® ® ® º
+                 ›º                                   º
+                 º Û standardmenuå          İ  ® ® ® º
+                 ›º                                   º
+                 º Û interner_inpuô_bereicè ]  ® ® ® º
+                 ›º                                   º
+                 ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+     set_path_anweisung       ::½ "SEÔ     path½" pfadangabe
+
+     Angabå deó Standardsuchpfadeó fò deî Nutzer.
+
+
+
+     set_append_anweisung     ::½ "SEÔ     append=¢ pfadangabe
+
+     Angabå deó Standardsuchpfadeó fò nichô ausfhrbrå Dateien
+
+
+
+     treiber_anweisunç        ::½ "T¢ t_steuerâ treiber_kommando
+
+     t_steuerb                ::½ ¢ ¢ ü "*¢ ü û "a¢ .® "z¢ }
+
+               ¢ ¢   unbedingtår Aufruæ deó   Treibers
+               "*¢   wahlweiseò  Aufruæ deó   Treiberó miô Best„tigunç deó Nutzers
+          "a".."z¢   wahlweiseò  Aufruæ eineó Treiberó durcè Auswahì a..z
+
+     treiber_kommando         ::½ laufwerë ":¢ path_angabå dateinamå Ûparameter]
+
+
+     
+     farbdefinition           ::= "C ,¢ umfeld_hinteî  ",¢ umfeld_vorî  "¬" 
+                                        auswahl_hinteî ",¢ auswahl_vorn
+
+     Angabe der Standardfarbwerte (jeweils zwei Dezimalstelleî miô Vornullen)
+
+.paŠ			 
+     fensterdeninition        ::= "W ,¢ P1ø ",¢ P1ù ",¢ P6ø ",¢ P6ù ",¢ 
+                                        P1ã ¢,¢ P2ã ",¢ P3ã ",¢ P4ã ",¢
+                                        P5ã ",¢ P6ã ",¢ P7ã ",¢ P8c
+
+     Definition eineó Fensteró 
+     (Koordinateî jeweiló zweé Dezimalstelleî miô Vornullen;
+      Characteòzeicheî werdeî direkô angegeben)
+
+
+     standardmenue            ::= menkopf
+                                  menk”rper
+
+
+
+     menkopf                 ::= steuerbytå ",¢ menbytå   ",¢ 
+                                  y_positioî ",¢ x_positioî ¢,¢ 
+                                  mennummeò ¢,¢ mentext
+
+
+     steuerbyte               ::= "m¢ ü "b¢ ü "l¢ ü "y¢ ü "~"
+
+               "m"   Aufruf eines Untermens.
+                     (mennummer muá angegeben werden; menk”rper ist nicht vorhanden)
+
+               "b"   Auruf eines Batch-Prozesses.
+                     (mennummeò ½ vieò Leerzeichen» 
+                      menk”rpeò enth„lô diå aufzurufendå Steuerfolge des Batch-Prozesses)
+
+               "l"   Mounô-Kommandï-Aufruæ
+                     (mennummer = vier Leerzeichen; menk”rper ist nicht vorhanden)
+
+               "y"   Beendeî der gesamten Arbeit
+                     (mennummer = vier Leerzeichen; menk”rper ist nicht vorhanden)
+
+               "~¢   Auruæ eineó Batcè-Prozesseó beò Eingabå voî Direkô-Kommandos
+                     (mennummer = vier Leerzeichen; menk”rper ist nicht vorhanden)
+                     
+
+     menbyte                 ::= zeichen
+
+               Wirä  ií  Men› angezeigô unä kanî zuí schnelleî Positioniereî  auæ  eineî  bestimmteî 
+               Menzweig angewendet werden.
+
+
+     y_position               ::½ zweistellige Dezimalzahl (0 < y_position < 25)
+
+               Bildschirmzeile,  auf welcher der Mentext angezeigt werden soll.
+
+
+     x_position               ::½ zweistellige Dezimalzahl (0 < x_position < 71-len(mentext))
+
+               Bildschirmspalte, auf welcher der Mentext angezeigt werden soll.
+
+.paŠ     mennummer               ::= ¢    ¢ ü "abcd"
+
+               ¢    "    wenn steuerbyte <> "m"
+
+               "abcd"    wenî steuerbytå ½  "m"
+                         mennummer (entspricht einem Dateinameî iî C:\BAT\BATCH\)
+                         Name bzw. Nummer des aufzurufenden UnterMens.
+
+
+     mentext                 ::= bis zu 70 Zeichen langer Text 
+
+                         wird auf dem Bildschirm aló AuswahlTexô angezeigt
+
+
+                                  ÚÄ              Ä¿
+                                  ³ batchzeile     ³
+     menk”rper               ::= < interner_input > ...
+                                  ³ externer_input ³
+                                  ÀÄ              ÄÙ
+
+
+     batchzeile               ::= ">        " ms_dos_kommando
+
+
+     interner_input           ::= ">$" input_nummer       "(" aktuelle_para_liste ")"
+
+
+     externer_input           ::= ">$" ""¢ input_namå """ "(" aktuelle_para_liste ")"
+
+
+     interner_input_bereich   ::=   ii_kopf
+                                    ii_k”rper
+
+                                  Ú ii_kopf   ¿
+                                  À ii_k”rper Ù ...
+
+
+     ii_kopf                  ::= "$" input_nummer "(" formale_para_liste ")"
+
+                                  ÚÄ              Ä¿
+                                  ³ batchzeile     ³
+     ii_k”rper                ::= <                ¾  ® ® .
+                                  ³ externer_input ³
+                                  ÀÄ              ÄÙ
+
+
+.paŠ
+          4.3®_Dateéen__"xxxx"
+
+     Dieså Dateéen enthalôeî allå Informationeî deó entsprechendeî Menó "xxxx"® 
+     Siå haô folgendeî allgemeineî Aufbau:
+
+                 ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+                 ›º                                   º
+                 º Û farbdefinition         ]        º
+                 ›º                                   º
+                 º [ fensterdefinitioî      İ  ® ® ® º
+                 ›º                                   º
+                 º [ erweiterungsdefinition İ  ® ® ® º
+                 ›º                                   º
+                 º   menkopfdefinition              º
+                 ›º                                   º
+                 º Û standardmenuå          İ  ® ® ® º
+                 ›º                                   º
+                 º Û interner_inpuô_bereicè ]  ® ® ® º
+                 ›º                                   º
+                 ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+
+     menkopfdefinition       ::½ ¢  ,¢ y_positioî ",¢ x_positioî ¢¬    ,¢ anzeige_text
+
+
+
+     erweiterungsdefinition   ::½ "Å ,¢ erw_dateiname
+
+               erw_dateinamå mu›á aló einå Dateé iî C:\BAT\BATCHÜ enthalteî sein
+               Definierô entsprechendå Hinweistextå auæ deí MenBild.
+
+
+
+          4.4®_Erweiterungs-Dateéen
+
+     Dieså Dateieî besteheî auó eineò Folgå voî Zeileî miô folgendeí Aufbau:
+
+               ¢  ,¢ y_positioî ",¢ x_positioî ¢,¢ anzeige_text
+
+.paŠ
+          4.5®_externå_Input-Dateéen
+
+     Dieså Dateéen definiereî eineî externeî Inpuô fò diå Batcè-Verarbeitung. 
+     Siå haô folgendeî allgemeineî Aufbau:
+
+                 ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+                 ›º                                   º
+                 º   externer_input_kopf             º
+                 ›º                                   º
+                 º   externer_inpuô_k”rpeò           º
+                 ›º                                   º
+                 ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+
+     externeò_input_kopf      ::½ "(¢ formale_para_listå ")"
+
+
+
+                                  ÚÄ              Ä¿
+                                  ³ batchzeile     ³
+     externer_input_k”rper    ::= <                ¾  ® ® .
+                                  ³ externer_input ³
+                                  ÀÄ              ÄÙ
+
+.paŠ
+          4.6®_Beispieì_fò_einå_gltigå_SysteíSteuerung
+
+          4.6®1._Dateé_WURZEL
+
+
+SET     path=c:\dos;c:\utilitys\nc;c:\utilitys\public;c:\bat;
+SET     append=
+T c:\utilitys\nc\sa bold yellow on blue
+T c:\dos\keybgr
+T*dsart10 artist10.cfg
+T*c:\dos\mode com1:9600
+C ,01,15,07,01,
+W ,55,18,80,21,É,Í,»,º,È,¼,º,Í
+W ,01,01,80,24,É,Í,»,º,È,¼,º,Í
+W ,01,21,40,24,Ç,Ä,Â,º,È,Ï,³,Í
+W ,40,21,80,24,Â,Ä,¶,³,Ï,¼,º,Í
+~@,22,07,    ,S p e z i a l  -  Kommandos
+ll,23,07,    ,L a u f w e r k (e)   aktivieren
+yy,23,47,    ,Arbeit beenden
+.
+
+
+
+          4.6®2._Dateé_0000
+
+C ,00,14,07,01,
+  ,04,14,    ,H a u p t - A U S W A H L - E b e n e
+mc,07,18,1000,C A D         - Projekte
+bt,09,18,    ,E z T a p e   - Aufruf
+>                c:\utilitys\eztape\eztape
+bp,11,18,    ,N o r t o n   - Programme
+>        CLS
+>                ni
+bk,12,18,    ,              - Kommander
+>        CD      c:\
+>        CLS
+>                ncsmall
+bm,13,18,    ,              - Men
+>        CLS
+>        CD      c:\bat
+>                c:
+>                ncsmall
+be,14,18,    ,              - Editor
+>        CLS
+>                ne
+
+
+.paŠ 
+         4.6®3._Dateé_1000
+
+C ,03,00,03,14,
+W ,01,01,60,04,É,Í,Ë,º,Ì,¼,º,Í
+E ,DIGITAL
+  ,07,14,    ,A u t o C A D    H a u p t A u s w a h l
+b5,10,18,    ,AutoCAD Deutsch     V 2.5
+>$01(test, ,f,d25,anwender)
+b6,12,18,    ,AutoCAD Englisch    V 2.6
+>$01(test,c:\bat\test.scr,f,d25,anwender)
+bs,16,18,    ,AutoCAD Symbolgenerator (zeichnen   )
+>$01(symbole,shpedit,f,d25,sg)
+bc,17,18,    ,AutoCAD Symbolgenerator (compilieren)
+>$01(symbole,dxfgen,f,d25,sg)
+>        CLS
+>        DEL     symbole.shp
+>                shp25ger
+>        DEL     symbole.dxf
+>        CLS
+>                acad symbole shpcom
+>        COPY    symbole.shx \acad\d25
+mz,19,18,0000,zurck zur Haupt-AUSWAHL-Ebene
+>
+$01(%1,%2,%3,%4,%5)
+>$"ACAD.BAT"(%1,%2,%3,%4,%5,50000,10000,30000)
+
+
+
+         4.6®4._ErweiterungsDateé___DIGITAL
+
+  ,02,03,Prfen Sie, ob der Digitizer ausgeschaltet und ob
+  ,03,03,            die ben”tigten Laufwerke aktiviert sind!
+.
+
+.paŠ
+         4.6®5._externå_Input-Dateien
+
+         4.6.5.1®_Dateé_ACAD.BAT
+
+(%1,%2,%3,%4,%5,%6,%7,%8)   ;1_dwg,2_scr,3_laufw,4_vers,5_anw,6_free,7_stack,8_heap
+>$"ACAD.WAI"()
+>$"ACAD.SET"(%3,%4,%5,%6,%7,%8)
+>                acad %1 %2
+
+
+         4.6.5.2._Dateé_ACAD.WAI
+
+()
+>        CLS
+>        ECHO           ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+>        ECHO           º     Bitte Warten ,   A C A D    wird geladen !     º
+>        ECHO           º     ******************************************     º
+>        ECHO           ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+         4.6.5.3®_Dateé_ACAD.SET
+
+(%1,%2,%3,%4,%5,%6)
+>        SET     path=%1:\acad\%2;c:\dos;c:\utilitys\public;c:\utilitys\nc;c:\bat;
+>        SET     acad=%1:\acad\%2\%3
+>        SET     acadfreeram=%4
+>        SET     lispstack=%5
+>        SET     lispheap=%6
+>                %1:
+>        CD      %1:\acad\%2\%3
+
+
+
+.paŠ
+         4.6.6®_resultierendå_Menanzeigen
+
+
+ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º                                                                              º
+º            -0000--------------------------------                             º
+º            H a u p t - A U S W A H L - E b e n e                             º
+º            -------------------------------------                             º
+º                                                                              º
+º            c   C A D         - Projekte                                      º
+º                                                                              º
+º            t   E z T a p e   - Aufruf                                        º
+º                                                                              º
+º            p   N o r t o n   - Programme                                     º
+º            k                 - Kommander                                     º
+º            m                 - Men                                          º
+º            e                 - Editor                                        º
+º                                                                              º
+º                                                                              º
+º                                                                              º
+º                                                     ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍº
+º                                                     º Modul:   M B A T C H   º
+º                                                     º (c) 88 by NILES-SOFT   º
+ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶
+º @   S p e z i a l  -  Kommandos      ³                                       º
+º l   L a u f w e r k (e)   aktivieren ³  y   Arbeit beenden                   º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼
+
+
+
+
+
+ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍËÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ»
+º Prfen Sie, ob der Digitizer ausgeschaltet und ob        º                   º
+º             die ben”tigten Laufwerke aktiviert sind!     º                   º
+ÌÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼                   º
+º                                                                              º
+º            -1000-----------------------------------                          º
+º            A u t o C A D    H a u p t A u s w a h l                          º
+º            ----------------------------------------                          º
+º                                                                              º
+º            5   AutoCAD Deutsch     V 2.5                                     º
+º                                                                              º
+º            6   AutoCAD Englisch    V 2.6                                     º
+º                                                                              º
+º                                                                              º
+º                                                                              º
+º            s   AutoCAD Symbolgenerator (zeichnen   )                         º
+º            c   AutoCAD Symbolgenerator (compilieren)                         º
+º                                                     ÉÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍº
+º            z   zurck zur Haupt-AUSWAHL-Ebene       º Modul:   M B A T C H   º
+º                                                     º (c) 88 by NILES-SOFT   º
+ÇÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÂÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄÄ¶
+º @   S p e z i a l  -  Kommandos      ³                                       º
+º l   L a u f w e r k (e)   aktivieren ³  y   Arbeit beenden                   º
+ÈÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÏÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍÍ¼Š

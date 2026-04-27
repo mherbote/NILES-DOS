@@ -1,0 +1,15 @@
+ECHO OFF
+ECHO ÿ
+ECHO DIE INSTALL-DATEIEN UND DER PFAD C:\INSTALL
+ECHO WERDEN GEL™SCHT !!                   
+\BAT\ASK "                      OKAY (J/N) ? ",jn
+IF ERRORLEVEL 2 GOTO end
+ECHO ÿ
+DEL C:\INSTALL\*.*
+CD C:\
+RD C:\INSTALL
+ECHO ÿ
+ECHO          INSTALLATION BEENDET
+
+:end
+cd a:\

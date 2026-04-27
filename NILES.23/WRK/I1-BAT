@@ -1,0 +1,5 @@
+ECHO    off
+BREAK   off
+COPY    \i2-bat d:\install.bat >NUL
+                d:\install.bat
+

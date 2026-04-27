@@ -1,0 +1,9 @@
+:error
+ECHO DISKETTE  ##  dBASEIII_TOOLS_LERN  ## IN LAUFWERK %1 EINLEGEN
+ECHO                                       ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 III00_0202
+IF ERRORLEVEL 1 GOTO error
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+init_3 ESC07

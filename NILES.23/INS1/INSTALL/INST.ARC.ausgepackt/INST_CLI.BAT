@@ -1,0 +1,9 @@
+:error
+ECHO DISKETTE  ##  CLIPPER 87  ## IN LAUFWERK %1 EINLEGEN
+ECHO                                 ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 III10_0101
+IF ERRORLEVEL 1 GOTO error
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+init_2 ESC10

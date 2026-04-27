@@ -1,0 +1,4 @@
+begin {$IFDEF Debug} CheckBreak:=true; {$ELSE} CheckBreak:=false; {$ENDIF}
+      c_write(1,1,blue,yellow,'');
+
+

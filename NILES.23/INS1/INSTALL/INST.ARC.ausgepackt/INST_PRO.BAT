@@ -1,0 +1,10 @@
+:error
+ECHO DISKETTE MIT ##  T-PROLOG  ## IN LAUFWERK %1 EINLEGEN
+ECHO                             ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 II40_0101
+IF ERRORLEVEL 1 GOTO error
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+
+init_1 ESC12

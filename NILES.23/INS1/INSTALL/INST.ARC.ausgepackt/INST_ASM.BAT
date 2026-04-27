@@ -1,0 +1,9 @@
+:error
+ECHO DISKETTE  ##  ASSEMBLER  ## IN LAUFWERK %1 EINLEGEN
+ECHO                             ABBRUCH MIT ^C
+PAUSE
+inst_vol %1 II90_0101
+IF ERRORLEVEL 1 GOTO error
+
+D:\UTILITYS\BATCH\COMMAND.COM /C %1:\install %1
+init_1 ESC06

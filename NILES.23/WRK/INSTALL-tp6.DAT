@@ -1,0 +1,93 @@
+(c) 16. 1.1990 by  NILES-SOFT
+               for tp6, SOB tp6
+                   NILES-DOS Version 2.3 (reduziert)
+#
+0t0-0p0-060-00
+A:\
+D:\UTILITYS\BATCH\
+D:\UTILITYS\PUBLIC\
+E:\UTILITYS\BATCH\
+#
+IBMBIO.COM
+IBMDOS.COM
+COMMAND.COM
+MOUNT.COM
+DEMOUNT.COM
+FIXT_DRV.SYS
+CONFIG.SYS
+#
+PKXARC.COM,A
+NC.ARC,B
+ABZUG.ARC,C
+#
+C:\CONFIG.SYS
+DEVICE =fixt_drv.sys
+BUFFERS= 10
+FILES  = 20
+COUNTRY=049,,d:\dos\country.sys
+DEVICE =d:\dos\ansi.sys
+DEVICE =d:\utilitys\driver\mdrive.sys -rah -u0
+DEVICE =d:\utilitys\driver\scp624.sys -rah -u0
+shell  =D:\UTILITYS\BATCH\mbatch.exe /E:2000
+#
+C:\BAT
+#
+D:\BAT
+D:\DOS
+D:\WORK
+D:\UTILITYS,D:\UTILITYS\BATCH,D:\UTILITYS\DRIVER,D:\UTILITYS\PUBLIC,D:\UTILITYS\NC
+#
+COMMAND.COM 
+MOUNT.COM 
+DEMOUNT.COM 
+#
+E:\BAT,E:\BAT\START_SY
+E:\SYSLOG
+E:\UTILITYS,E:\UTILITYS\BATCH
+#
+INT19.COM 
+INT19O.COM 
+NARC.EXE 
+PKARC.COM 
+PKXARC.COM 
+PKSFX.PGM 
+TBAT1.EXE 
+TBAT2.EXE 
+TBAT3.EXE 
+TBATCH.EXE 
+#
+AMT.EXE 
+MBATCH.EXE 
+MBAT1.EXE 
+BBATCH.EXE 
+EBATCH.EXE 
+DBATCH.EXE 
+CREATE_B.EXE 
+CHANGE_B.EXE 
+CONSYS.EXE 
+#
+WRENABLE.COM 
+WPROTECT.COM 
+CLOCK.EXE 
+C-NAM.EXE 
+C-MENU.EXE 
+E-NAM.EXE 
+E-PASS.EXE 
+E-PATH.EXE 
+E-MENU.EXE 
+#
+E:\BAT\START_SY\
+0000 
+WURZEL 
+#
+:\BAT\
+#
+/C copy D:\WORK\mdrive.sys   D:\utilitys\driver\mdrive.sys
+/C copy D:\WORK\scp624.sys   D:\utilitys\driver\scp624.sys
+/C copy D:\WORK\siemens3.sys D:\utilitys\driver\siemens3.sys
+/C copy D:\WORK\cpa800.sys   D:\utilitys\driver\cpa800.sys
+#
+C:\
+#
+D:\UTILITYS\NC\
+#

@@ -1,0 +1,13 @@
+C ,00,14,07,00,
+  ,04,14,    ,H a u p t - A U S W A H L - E b e n e
+m1,08,18,1000,N U T Z E R  -  Projekte
+m2,10,18,2000,P R O G R A M M  -  Entwicklung  (Sprachen)
+b3,12,18,    ,T E X T V E R A R B E I T U N G  mit WS 4.0 & Duden
+>                d:\utilitys\batch\amt.exe C C -Text-  -WS4-
+>                d1
+m4,14,18,3000,S O F T W A R E  -  Utility
+b5,16,18,    ,N U T Z E R  1  -  Sicherungssystem 
+>                d:\utilitys\batch\amt.exe C C sichern restore
+>                d:\bat\siko 01
+.
+
